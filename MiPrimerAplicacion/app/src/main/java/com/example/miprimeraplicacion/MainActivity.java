@@ -98,4 +98,8 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
+    public boolean VerificarUsuario (String nombre, String password){
+        return nombre == "hola" && password == "hola1234";
+    }
 }
