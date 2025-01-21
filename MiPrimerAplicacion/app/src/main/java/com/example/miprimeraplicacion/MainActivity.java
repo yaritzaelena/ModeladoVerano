@@ -100,6 +100,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean VerificarUsuario (String nombre, String password){
-        return nombre == "hola" && password == "hola1234";
+        return nombre == "Valeria" && password == "hola1234";
     }
 }
